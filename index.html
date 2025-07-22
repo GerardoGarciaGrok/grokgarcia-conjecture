@@ -14,10 +14,6 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; background-color: black; color: #f0f0f0; }
     header { background: url('twisted_higher_bg.jpg') center/cover no-repeat, #1a1a1a; height: 200px; color: white; }
-    nav { margin: 10px 0; color: white; }
-    nav a { color: #1E90FF; text-decoration: none; margin-right: 10px; }
-    nav a:hover { color: #87CEFA; }
-    nav a.active { color: #FFD700; font-weight: bold; }
     section { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: #f0f0f0; }
     .paper { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: #f0f0f0; }
     .paper a { color: #9370DB; text-decoration: none; padding: 5px 10px; border: 1px solid #9370DB; border-radius: 5px; transition: background-color 0.3s; }
@@ -26,20 +22,19 @@
     #home p { font-size: 16px; line-height: 1.5; color: #3CB371; }
     #submit h2 { color: #8A2BE2; }
     #submit p { color: #8A2BE2; }
+    #submit a.email { color: #87CEFA; text-decoration: none; }
+    #submit a.email:hover { color: #1E90FF; }
     html { scroll-behavior: smooth; }
     @media (max-width: 600px) {
       header { height: 150px; }
       #home h1 { font-size: 20px; }
       #home p, .paper { font-size: 14px; }
-      nav a { font-size: 14px; margin-right: 10px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <nav>
-      <a href="#home">Home</a> | <a href="#submit">Submit</a> | <a href="#papers">Papers</a>
-    </nav>
+    <!-- Navigation removed -->
   </header>
   <section id="home">
     <h1>Welcome to the GrokGarcia Conjecture</h1>
@@ -49,7 +44,7 @@
   <section id="submit">
     <h2>Submit Your Work</h2>
     <p>Interested in contributing to the GrokGarcia Conjecture? We welcome ideas, feedback, or related research on scalar field models, dark matter, or cosmic acceleration.</p>
-    <p>Contact us at <a href="mailto:holapelado@hotmail.com">holapelado@hotmail.com</a> or <a href="https://forms.gle/xxx" target="_blank">submit a proposal</a>.</p>
+    <p>Contact us at <a class="email" href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a> or <a class="email" href="https://forms.gle/xxx" target="_blank">submit a proposal</a>.</p>
   </section>
   <section id="papers">
     <h2>Papers</h2>   
@@ -58,14 +53,6 @@
     <div class="paper">A Unified Scalar Field Model for Dark Matter and Dark Energy (Prior) - June 2025 - <a href="prior_model_1.pdf">View</a></div>
     <div class="paper">A Dynamic Unified Scalar Field Model Linking Dark Matter, Dark Energy, and Cosmic Acceleration (Prior) - June 2025 - <a href="prior_model_2.pdf">View</a></div>
   </section>
-  <script>
-    document.querySelectorAll('nav a').forEach(anchor => {
-      anchor.addEventListener('click', function() {
-        document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-        this.classList.add('active');
-      });
-    });
-  </script>
   <!-- force rebuild -->
 </body>
 </html>
