@@ -3,20 +3,36 @@
 <head>
   <title>GrokGarcia Conjecture</title>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The GrokGarcia Conjecture explores a unified scalar field model for dark matter, dark energy, and cosmic acceleration.">
+  <meta name="keywords" content="cosmology, scalar field, dark matter, dark energy, boson stars, black holes">
+  <meta name="author" content="Gerardo Garcia and Grok AI">
+  <meta property="og:title" content="GrokGarcia Conjecture">
+  <meta property="og:description" content="Discover a bold new vision of the cosmos uniting dark matter, dark energy, and cosmic acceleration.">
+  <meta property="og:image" content="https://gerardogarciagrok.github.io/grokgarcia-conjecture/twisted_higher_bg.jpg">
+  <meta property="og:url" content="https://gerardogarciagrok.github.io/grokgarcia-conjecture/">
   <style>
-   body { font-family: Arial, sans-serif; margin: 20px; background-color: black; color: white; }
-header { background: url('twisted_higher_bg.jpg'); height: 200px; color: white; background-size: 100% 100%; background-position: center; background-repeat: no-repeat; }
-nav { margin: 10px 0; color: white; }
-nav a { color: #1E90FF; } /* Dodger Blue */
-nav a:hover { color: #87CEFA; } /* Light Sky Blue */
-section { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: white; }
-.paper { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: white; }
-.paper a { color: #9370DB; } /* Medium Purple */
-.paper a:hover { color: #D8BFD8; } /* Thistle */
-#home h1 { font-size: 24px; margin-bottom: 10px; color: #3CB371; } /* Medium Sea Green */
-#home p { font-size: 16px; line-height: 1.5; color: #3CB371; } /* Medium Sea Green */
-#submit h2 { color: #8A2BE2; } /* Blue Violet */
-#submit p { color: #8A2BE2; } /* Blue Violet */
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: black; color: #f0f0f0; }
+    header { background: url('twisted_higher_bg.jpg') center/cover no-repeat, #1a1a1a; height: 200px; color: white; }
+    nav { margin: 10px 0; color: white; }
+    nav a { color: #1E90FF; text-decoration: none; margin-right: 10px; }
+    nav a:hover { color: #87CEFA; }
+    nav a.active { color: #FFD700; font-weight: bold; }
+    section { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: #f0f0f0; }
+    .paper { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: #f0f0f0; }
+    .paper a { color: #9370DB; text-decoration: none; padding: 5px 10px; border: 1px solid #9370DB; border-radius: 5px; transition: background-color 0.3s; }
+    .paper a:hover { color: #D8BFD8; background-color: rgba(147, 112, 219, 0.2); }
+    #home h1 { font-size: 24px; margin-bottom: 10px; color: #3CB371; }
+    #home p { font-size: 16px; line-height: 1.5; color: #3CB371; }
+    #submit h2 { color: #8A2BE2; }
+    #submit p { color: #8A2BE2; }
+    html { scroll-behavior: smooth; }
+    @media (max-width: 600px) {
+      header { height: 150px; }
+      #home h1 { font-size: 20px; }
+      #home p, .paper { font-size: 14px; }
+      nav a { font-size: 14px; margin-right: 10px; }
+    }
   </style>
 </head>
 <body>
@@ -32,15 +48,24 @@ section { margin: 10px 0; padding: 10px; border: 1px solid #ccc; color: white; }
   </section>
   <section id="submit">
     <h2>Submit Your Work</h2>
-    <p>Coming soon...</p>
+    <p>Interested in contributing to the GrokGarcia Conjecture? We welcome ideas, feedback, or related research on scalar field models, dark matter, or cosmic acceleration.</p>
+    <p>Contact us at <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a> or <a href="https://forms.gle/xxx" target="_blank">submit a proposal</a>.</p>
   </section>
   <section id="papers">
     <h2>Papers</h2>   
-     <div class="paper">A Fourth Supplemental Unified Scalar Field Model Integrating Boson Star Optics and Black Hole Energy Feed - July 2025 - <a href="supp4.pdf">View</a></div>
-     <div class="paper">A Supplemental Unified Scalar Field Model Integrating Black Hole Release Valves - July 2025 - <a href="UnifiedModel (3).pdf">View</a></div>
-     <div class="paper">A Unified Scalar Field Model for Dark Matter and Dark Energy (Prior) - June 2025 - <a href="prior_model_1.pdf">View</a></div>
-     <div class="paper">A Dynamic Unified Scalar Field Model Linking Dark Matter, Dark Energy, and Cosmic Acceleration (Prior) - June 2025 - <a href="prior_model_2.pdf">View</a></div>
+    <div class="paper">A Fourth Supplemental Unified Scalar Field Model Integrating Boson Star Optics and Black Hole Energy Feed - July 2025 - <a href="supp4.pdf">View</a></div>
+    <div class="paper">A Supplemental Unified Scalar Field Model Integrating Black Hole Release Valves - July 2025 - <a href="UnifiedModel (3).pdf">View</a></div>
+    <div class="paper">A Unified Scalar Field Model for Dark Matter and Dark Energy (Prior) - June 2025 - <a href="prior_model_1.pdf">View</a></div>
+    <div class="paper">A Dynamic Unified Scalar Field Model Linking Dark Matter, Dark Energy, and Cosmic Acceleration (Prior) - June 2025 - <a href="prior_model_2.pdf">View</a></div>
+  </section>
+  <script>
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function() {
+        document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+  <!-- force rebuild -->
 </body>
 </html>
-<!-- force rebuild -->
-
