@@ -1,0 +1,11 @@
+<svg width="400" height="300" viewBox="-7 -5 14 10" xmlns="http://www.w3.org/2000/svg" style="background: black;">
+  <!-- Event Horizon -->
+  <circle cx="0" cy="0" r="2" fill="black" stroke="#f0f0f0" stroke-width="0.1"/>
+  <text x="-2" y="-2.2" fill="#f0f0f0" font-size="0.5">Event Horizon</text>
+  <!-- Photon Ring (base circle, green) -->
+  <circle cx="0" cy="0" r="3.5" fill="none" stroke="#3CB371" stroke-width="0.2"/>
+  <!-- Asymmetric Bulge (scalar field effect, purple) -->
+  <path d="M 3.5 0 A 3.5 3.5 0 0 1 3.675 0.525 A 3.675 3.675 0 0 0 3.5 0" fill="none" stroke="#9370DB" stroke-width="0.2"/>
+  <text x="3.7" y="0.8" fill="#9370DB" font-size="0.5">Scalar Field Halo Effect</text>
+  <text x="-2" y="4" fill="#3CB371" font-size="0.5">Photon Ring</text>
+</svg>
