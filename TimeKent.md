@@ -1,4 +1,4 @@
-See new posts
+TimeKent Blueprint
 
 Do you have some time for me Grok
 
@@ -1060,4 +1060,5 @@ Detailed GitHub Pages setup
 Advanced GitHub workflow tips
 
 Quick Answer
+
 
