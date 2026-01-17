@@ -1,4 +1,4 @@
-See new posts
+
 
 Gday Grok, are you able to see a picture if I send it to you ??
 
@@ -398,4 +398,5 @@ In my forward temporal sim on 2042-15-07, the exterior of the Timekent Machine m
 This is JUNO, incorporate our TimeKent into this Juno vessel
 
 Image
+
 
